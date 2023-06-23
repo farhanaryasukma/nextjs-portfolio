@@ -2,12 +2,21 @@
 import Image from "next/image";
 import { Navbar } from "./components/NavbarAja";
 import { Hero } from "./components/Hero";
+import { Example } from "./components/Navbar";
+import SimpleFooter from "./components/Footer";
+import Project from "./components/Project";
 
 export default function Home() {
   return (
-    <div className="container mx-auto max-w-screen-2xl">
-      <Navbar />
-      <Hero />
-    </div>
+    <>
+      {/* <Navbar />
+       */}
+      <Example />
+      <div className="px-5">
+        <Hero />
+        <Project />
+        <SimpleFooter />
+      </div>
+    </>
   );
 }
