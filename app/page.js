@@ -12,7 +12,7 @@ export default function Home() {
       {/* <Navbar />
        */}
       <Example />
-      <div className="px-5">
+      <div className="px-5 lg:px-20">
         <Hero />
         <Project />
         <SimpleFooter />

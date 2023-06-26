@@ -7,6 +7,8 @@ import {
   IconButton,
   Card,
 } from "@material-tailwind/react";
+
+
  
 export function Example() {
   const [openNav, setOpenNav] = React.useState(false);
@@ -55,15 +57,13 @@ export function Example() {
  
   return (
     <>
-      <Navbar className="sticky top-0 z-10 h-max max-w-full rounded-none py-2 px-4 lg:px-8 lg:py-4">
+      <Navbar className="sticky top-2 z-10 rounded-3xl py-2 w-11/12 mx-auto lg:px-8 lg:py-4">
         <div className="flex items-center justify-between text-blue-gray-900">
-          <Typography
-            as="a"
-            href="#"
-            className="mr-4 cursor-pointer py-1.5 font-medium text-3xl"
-          >
-            Welcome
-          </Typography>
+        <img
+      className=""
+      src="/img/signature2.png"
+      alt="nature image"
+    />
           <div className="flex items-center gap-4">
             <div className="mr-4 hidden lg:block">{navList}</div>
             <Button

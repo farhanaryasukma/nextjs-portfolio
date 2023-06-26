@@ -14,8 +14,8 @@ import MonitorIcon from '@mui/icons-material/Monitor';
 
 export default function Project() {
   return (
-    <div className="text-6xl">
-      <h1 className="mb-20">Project</h1>
+    <div className="text-4xl pt-10">
+      <h1 className="mb-5">Project</h1>
       <div className=" flex flex-col gap-5 mx-auto justify-evenly items-center md:flex-row">
       <Card
         shadow={false}
@@ -48,7 +48,7 @@ export default function Project() {
             </Button>
             <Button className="flex items-center gap-3 !mx-0">
               <MonitorIcon color="primary" fontSize="large" className="h-5 w-5" />{" "}
-              Live Code 
+              Live Demo 
             </Button>
           </div>
         </CardBody>
@@ -84,7 +84,7 @@ export default function Project() {
             </Button>
             <Button className="flex items-center gap-3 !mx-0">
               <MonitorIcon color="primary" fontSize="large" className="h-5 w-5" />{" "}
-              Live Code 
+              Live Demo 
             </Button>
           </div>
         </CardBody>
@@ -120,7 +120,7 @@ export default function Project() {
             </Button>
             <Button className="flex items-center gap-3 !mx-0">
               <MonitorIcon color="primary" fontSize="large" className="h-5 w-5" />{" "}
-              Live Code 
+              Live Demo 
             </Button>
           </div>
         </CardBody>
