@@ -12,7 +12,7 @@ export const Hero = () => {
             A Full Stack Developer 💻
           </h2>
           <h3 className="text-base mb-1">
-            But I am also a Certified Japanese Speaker, {" "}
+            Also a Certified Japanese Speaker, {" "}
             <Link
               className="underline underline-offset-2"
               href="https://www.youtube.com/channel/UCoA0Nxbuy3jR7HQBqBGdoTA"

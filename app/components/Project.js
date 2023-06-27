@@ -54,7 +54,8 @@ export default function Project() {
               Sequelize ORM,
             </Typography>
             <div className="flex justify-center gap-7">
-              <Button className="flex items-center gap-3 !mx-0">
+              <a className="flex items-center gap-3 !mx-0" href="https://github.com/farhanaryasukma/child-birth-filter" target="_blank" rel="noopener noreferrer">
+              <Button className="flex items-center gap-3 w-30 h-12 !mx-0" >
                 <CodeIcon
                   color="primary"
                   fontSize="large"
@@ -62,7 +63,9 @@ export default function Project() {
                 />{" "}
                 Repo
               </Button>
-              <Button className="flex items-center gap-3 !mx-0">
+              </a>
+              <a className="flex items-center gap-3 !mx-0" href="https://child-birth-filter.vercel.app/" target="_blank" rel="noopener noreferrer">
+              <Button className="flex items-center gap-3 !mx-0 w-30 h-12">
                 <MonitorIcon
                   color="primary"
                   fontSize="large"
@@ -70,6 +73,7 @@ export default function Project() {
                 />{" "}
                 Live Demo
               </Button>
+              </a>
             </div>
           </CardBody>
         </Card>
@@ -78,22 +82,13 @@ export default function Project() {
           className="relative grid h-[30rem] w-full max-w-[20rem] items-end justify-center overflow-hidden text-center hover:text-red-800"
         >
           <IKContext urlEndpoint={videoUrl}>
-  <IKVideo
-    className='w-full h-full absolute object-cover'
-    path="game_pedia.mov"
-    loop
-    autoPlay
-  />
-</IKContext>
-          {/* <IKVideo
-            className=" w-full h-full absolute object-cover"
-            loop={true}
-            autoPlay={true}
-            urlEndpoint={videoUrl}
-            // preload="auto"
-            // muted
-            path="game_platform.mp4"
-          ></IKVideo> */}
+            <IKVideo
+              className="w-full h-full absolute object-cover"
+              path="game_pedia.mov"
+              loop
+              autoPlay
+            />
+          </IKContext>
           <CardHeader
             floated={false}
             shadow={false}
@@ -119,7 +114,8 @@ export default function Project() {
               </p>
             </Typography>
             <div className="flex justify-center gap-7 pt-2">
-              <Button className="flex items-center gap-3 !mx-0">
+            <a className="flex items-center gap-3 !mx-0" href="https://gitlab.com/binar-platinum-team-2/challenge-chapter-11-fe" target="_blank" rel="noopener noreferrer">
+              <Button className="flex items-center gap-3 w-30 h-12 !mx-0" >
                 <CodeIcon
                   color="primary"
                   fontSize="large"
@@ -127,7 +123,9 @@ export default function Project() {
                 />{" "}
                 Repo
               </Button>
-              <Button className="flex items-center gap-3 !mx-0">
+              </a>
+              <a className="flex items-center gap-3 !mx-0" href="https://fsw-binar-team2.netlify.app/" target="_blank" rel="noopener noreferrer">
+              <Button className="flex items-center gap-3 !mx-0 w-30 h-12">
                 <MonitorIcon
                   color="primary"
                   fontSize="large"
@@ -135,6 +133,7 @@ export default function Project() {
                 />{" "}
                 Live Demo
               </Button>
+              </a>
             </div>
           </CardBody>
         </Card>
@@ -164,12 +163,13 @@ export default function Project() {
               This Portfolio Website
             </Typography>
             <Typography variant="h5" className="mb-4 text-gray-400 text-sm">
-              A Passion Project. somehow the video background isn't working
-              when I add mute parameter <br />
+              A Passion Project. somehow the video background isn't working when
+              I add mute parameter <br />
               Tech: Next JS, React, Tailwind CSS, Material-Tailwind.
             </Typography>
             <div className="flex justify-center gap-7 pt-2">
-              <Button className="flex items-center gap-3 !mx-0">
+            <a className="flex items-center gap-3 !mx-0" href="https://github.com/farhanaryasukma/nextjs-portfolio" target="_blank" rel="noopener noreferrer">
+              <Button className="flex items-center gap-3 w-30 h-12 !mx-0" >
                 <CodeIcon
                   color="primary"
                   fontSize="large"
@@ -177,14 +177,17 @@ export default function Project() {
                 />{" "}
                 Repo
               </Button>
-              <Button className="flex items-center gap-3 !mx-0">
+              </a>
+              <a className="flex items-center gap-3 !mx-0" href="" target="_blank" rel="noopener noreferrer">
+              <Button className="flex items-center gap-3 !mx-0 w-30 h-12" disabled>
                 <MonitorIcon
                   color="primary"
                   fontSize="large"
                   className="h-5 w-5"
                 />{" "}
-                Live Demo
+                You're in the project
               </Button>
+              </a>
             </div>
           </CardBody>
         </Card>
