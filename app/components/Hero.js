@@ -5,7 +5,7 @@ import { CustomCard } from "./Card";
 export const Hero = () => {
   return (
     <>
-      <div className="pt-10 flex flex-col md:flex-row md:pt-20">
+      <div id="top" className="pt-10 flex flex-col md:flex-row md:pt-20">
         <div className="md:w-3/5 md:pt-36 text-xl">
           <h1 className="text-5xl mb-2 font-bold">Hi, I'm Farhan</h1>
           <h2 className="text-xl mb-4 font-medium">

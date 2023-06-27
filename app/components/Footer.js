@@ -10,7 +10,7 @@ export default function SimpleFooter() {
         <li>
           <Typography
             as="a"
-            href="#"
+            href="#top"
             color="blue-gray"
             className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
           >
@@ -30,7 +30,8 @@ export default function SimpleFooter() {
         <li>
           <Typography
             as="a"
-            href="#"
+            href="https://github.com/farhanaryasukma"
+            target="_blank"
             color="blue-gray"
             className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
           >
@@ -40,7 +41,7 @@ export default function SimpleFooter() {
         <li>
           <Typography
             as="a"
-            href="#"
+            href="mailto:farhan.arya.sukma@gmail.com?subject=Work%20Request&body=Hello,%20I%20would%20like%20to%20contact%20you%20regarding..."
             color="blue-gray"
             className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
           >

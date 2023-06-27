@@ -28,7 +28,7 @@ export function Example() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
+        <a href="#top" className="flex items-center">
           Back to the Top 🔝
         </a>
       </Typography>
@@ -38,8 +38,8 @@ export function Example() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
-          Workfolio 💼
+        <a href="#project" className="flex items-center">
+          Project
         </a>
       </Typography>
       <Typography
@@ -49,7 +49,7 @@ export function Example() {
         className="p-1 font-normal"
       >
         <a href="#" className="flex items-center">
-          Knowledge Tapestry 🤓
+          Education {"(coming soon)"}
         </a>
       </Typography>
     </ul>
@@ -59,11 +59,13 @@ export function Example() {
     <>
       <Navbar className="sticky top-2 z-10 rounded-3xl py-2 w-11/12 mx-auto lg:px-8 lg:py-4">
         <div className="flex items-center justify-between text-blue-gray-900">
-        <img
-      className=""
-      src="/img/signature2.png"
-      alt="nature image"
-    />
+          <a href="#top">
+            <img
+              className="cursor-pointer"
+              src="/img/signature2.png"
+              alt="nature image"
+            />
+          </a>
           <div className="flex items-center gap-4">
             <div className="mr-4 hidden lg:block">{navList}</div>
             <Button
@@ -71,7 +73,9 @@ export function Example() {
               size="sm"
               className="hidden lg:inline-block"
             >
-              <span>Contact me!</span>
+              <a href="mailto:farhan.arya.sukma@gmail.com?subject=Work%20Request&body=Hello,%20I%20would%20like%20to%20contact%20you%20regarding...">
+                <span>Mail me</span>
+              </a>
             </Button>
             <IconButton
               variant="text"
@@ -115,7 +119,9 @@ export function Example() {
         <MobileNav open={openNav}>
           {navList}
           <Button variant="gradient" size="sm" fullWidth className="mb-2">
-            <span>Contact me!</span>
+            <a href="mailto:farhan.arya.sukma@gmail.com?subject=Custom%20Subject&body=Hello,%20I%20would%20like%20to%20contact%20you%20regarding...">
+              <span>Contact me!</span>
+            </a>
           </Button>
         </MobileNav>
       </Navbar>

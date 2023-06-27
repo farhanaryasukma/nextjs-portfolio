@@ -26,10 +26,11 @@ import {
           </Typography>
         </CardBody>
         <CardFooter className="flex justify-center gap-7 pt-2">
-          <Tooltip content="follow 😉">
+          <Tooltip content="my work">
             <Typography
               as="a"
-              href="#facebook"
+              href="https://github.com/farhanaryasukma"
+              target="_blank"
               variant="lead"
               color="blue"
               textGradient
@@ -37,26 +38,28 @@ import {
               <GitHubIcon color="primary" fontSize="large" />
             </Typography>
           </Tooltip>
-          <Tooltip content="for more serious person 🤓">
+          <Tooltip content="follow me!">
             <Typography
               as="a"
               href="https://www.linkedin.com/in/farhan-arya/"
+              target="_blank"
               variant="lead"
               color="light-blue"
               textGradient
             >
-              <LinkedInIcon color="primary" fontSize="large"/>
+              <LinkedInIcon color="primary" fontSize="large" />
             </Typography>
           </Tooltip>
           <Tooltip content="Subs :)?">
             <Typography
               as="a"
               href="https://www.youtube.com/channel/UCoA0Nxbuy3jR7HQBqBGdoTA"
+              target="_blank"
               variant="lead"
               color="purple"
               textGradient
             >
-              <YouTubeIcon color="primary" fontSize="large"/>
+              <YouTubeIcon color="primary" fontSize="large" />
             </Typography>
           </Tooltip>
         </CardFooter>
