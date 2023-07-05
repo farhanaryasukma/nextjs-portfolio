@@ -56,25 +56,40 @@ export default function Project() {
               Sequelize ORM,
             </Typography>
             <div className="flex justify-center gap-7">
-              <a className="flex items-center gap-3 !mx-0" href="https://github.com/farhanaryasukma/child-birth-filter" target="_blank" rel="noopener noreferrer">
-              <Button className="flex items-center gap-3 w-30 h-12 !mx-0" >
-                <CodeIcon
-                  color="primary"
-                  fontSize="large"
-                  className="h-5 w-5"
-                />{" "}
-                Repo
-              </Button>
+              <a
+                className="flex items-center gap-3 !mx-0"
+                href="https://github.com/farhanaryasukma/child-birth-filter"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button
+                  color="white"
+                  className="flex items-center gap-3 w-30 h-12 !mx-0"
+                >
+                  <CodeIcon
+                    color="primary"
+                    fontSize="large"
+                    className="h-5 w-5"
+                  />{" "}
+                  Repo
+                </Button>
               </a>
-              <a className="flex items-center gap-3 !mx-0" href="https://child-birth-filter.vercel.app/" target="_blank" rel="noopener noreferrer">
-              <Button className="flex items-center gap-3 !mx-0 w-30 h-12">
-                <MonitorIcon
-                  color="primary"
-                  fontSize="large"
-                  className="h-5 w-5"
-                />{" "}
-                Live Demo
-              </Button>
+              <a
+                className="flex items-center gap-3 !mx-0"
+                href="https://child-birth-filter.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button 
+                  color="white"
+                  className="flex items-center gap-3 !mx-0 w-30 h-12">
+                  <MonitorIcon
+                    color="primary"
+                    fontSize="large"
+                    className="h-5 w-5"
+                  />{" "}
+                  Live Demo
+                </Button>
               </a>
             </div>
           </CardBody>
@@ -83,7 +98,12 @@ export default function Project() {
           shadow={false}
           className="relative grid h-[30rem] w-full max-w-[20rem] items-end justify-center overflow-hidden text-center hover:text-red-800"
         >
-          <Image src={gamePediaGIF} alt="" srcset="" className="w-full h-full absolute object-cover"/>
+          <Image
+            src={gamePediaGIF}
+            alt=""
+            srcset=""
+            className="w-full h-full absolute object-cover"
+          />
           {/* <IKContext urlEndpoint={videoUrl}>
             <IKVideo
               className="w-full h-full absolute object-cover"
@@ -117,25 +137,39 @@ export default function Project() {
               </p>
             </Typography>
             <div className="flex justify-center gap-7 pt-2">
-            <a className="flex items-center gap-3 !mx-0" href="https://gitlab.com/binar-platinum-team-2/challenge-chapter-11-fe" target="_blank" rel="noopener noreferrer">
-              <Button className="flex items-center gap-3 w-30 h-12 !mx-0" >
-                <CodeIcon
-                  color="primary"
-                  fontSize="large"
-                  className="h-5 w-5"
-                />{" "}
-                Repo
-              </Button>
+              <a
+                className="flex items-center gap-3 !mx-0"
+                href="https://gitlab.com/binar-platinum-team-2/challenge-chapter-11-fe"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button 
+                  color="white"
+                  className="flex items-center gap-3 w-30 h-12 !mx-0">
+                  <CodeIcon
+                    color="primary"
+                    fontSize="large"
+                    className="h-5 w-5"
+                  />{" "}
+                  Repo
+                </Button>
               </a>
-              <a className="flex items-center gap-3 !mx-0" href="https://fsw-binar-team2.netlify.app/" target="_blank" rel="noopener noreferrer">
-              <Button className="flex items-center gap-3 !mx-0 w-30 h-12">
-                <MonitorIcon
-                  color="primary"
-                  fontSize="large"
-                  className="h-5 w-5"
-                />{" "}
-                Live Demo
-              </Button>
+              <a
+                className="flex items-center gap-3 !mx-0"
+                href="https://fsw-binar-team2.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button 
+                  color="white"
+                  className="flex items-center gap-3 !mx-0 w-30 h-12">
+                  <MonitorIcon
+                    color="primary"
+                    fontSize="large"
+                    className="h-5 w-5"
+                  />{" "}
+                  Live Demo
+                </Button>
               </a>
             </div>
           </CardBody>
@@ -171,25 +205,42 @@ export default function Project() {
               Tech: Next JS, React, Tailwind CSS, Material-Tailwind.
             </Typography>
             <div className="flex justify-center gap-7 pt-2">
-            <a className="flex items-center gap-3 !mx-0" href="https://github.com/farhanaryasukma/nextjs-portfolio" target="_blank" rel="noopener noreferrer">
-              <Button className="flex items-center gap-3 w-30 h-12 !mx-0" >
-                <CodeIcon
-                  color="primary"
-                  fontSize="large"
-                  className="h-5 w-5"
-                />{" "}
-                Repo
-              </Button>
+              <a
+                className="flex items-center gap-3 !mx-0"
+                href="https://github.com/farhanaryasukma/nextjs-portfolio"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button
+                  color="white"
+                  className="flex items-center gap-3 w-30 h-12 !mx-0">
+                  <CodeIcon
+                    color="primary"
+                    fontSize="large"
+                    className="h-5 w-5"
+                  />{" "}
+                  Repo
+                </Button>
               </a>
-              <a className="flex items-center gap-3 !mx-0" href="" target="_blank" rel="noopener noreferrer">
-              <Button className="flex items-center gap-3 !mx-0 w-30 h-12" disabled>
-                <MonitorIcon
-                  color="primary"
-                  fontSize="large"
-                  className="h-5 w-5"
-                />{" "}
-                You're in the project
-              </Button>
+              <a
+                className="flex items-center gap-3 !mx-0"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button
+                  color="white"
+
+                  className="flex items-center gap-3 !mx-0 w-30 h-12"
+                  disabled
+                >
+                  <MonitorIcon
+                    color="primary"
+                    fontSize="large"
+                    className="h-5 w-5"
+                  />{" "}
+                  You're in the project
+                </Button>
               </a>
             </div>
           </CardBody>

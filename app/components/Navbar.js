@@ -60,7 +60,7 @@ export function Example() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center gap-1">
+        <a href="/files/farhan_arya_sukma_CV.pdf" className="flex items-center gap-1">
           <PictureAsPdfIcon /> CV
         </a>
       </Typography>

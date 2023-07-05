@@ -3,7 +3,7 @@ import devIcon from "devicon";
 export default function Skill() {
   return (
     <>
-      <div id="skill" className="text-4xl mt-10">
+      <div id="skill" className="text-4xl mt-10 pt-10">
         <h1 className="mb-5 font-semibold">Skills</h1>
         <div>
           <h2 className="text-2xl mb-2">Front End</h2>
