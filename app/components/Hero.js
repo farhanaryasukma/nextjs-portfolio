@@ -23,7 +23,7 @@ export const Hero = () => {
           </h3>
 
           <h5 className="text-base font-light">
-            And also a video editor, guitar player, good cook, tech geek and ...
+            A video editor, guitar player, good cook, tech geek and ...
             you name it!{" "}
           </h5>
           <br />

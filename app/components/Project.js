@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import {
 Card,
 CardHeader,
@@ -7,6 +8,7 @@ CardFooter,
 Tooltip,
 Button
 } from "@material-tailwind/react";
+import gamePediaGIF from '../../public/img/gamepedia.gif'
 import { IKVideo, IKImage, IKContext } from 'imagekitio-react';
 
 import CodeIcon from '@mui/icons-material/Code';
@@ -17,7 +19,7 @@ export default function Project() {
   const videoUrl = "https://ik.imagekit.io/oxmgwogqf/"
   return (
     <div id="project" className="text-4xl pt-10">
-      <h1 className="mb-5">Project</h1>
+      <h1 className="mb-5 font-semibold">Project</h1>
       <div className=" flex flex-col gap-5 mx-auto justify-evenly items-center md:flex-row">
         <Card
           shadow={false}
@@ -81,14 +83,15 @@ export default function Project() {
           shadow={false}
           className="relative grid h-[30rem] w-full max-w-[20rem] items-end justify-center overflow-hidden text-center hover:text-red-800"
         >
-          <IKContext urlEndpoint={videoUrl}>
+          <Image src={gamePediaGIF} alt="" srcset="" className="w-full h-full absolute object-cover"/>
+          {/* <IKContext urlEndpoint={videoUrl}>
             <IKVideo
               className="w-full h-full absolute object-cover"
               path="game_pedia.mov"
               loop
               autoPlay
             />
-          </IKContext>
+          </IKContext> */}
           <CardHeader
             floated={false}
             shadow={false}
