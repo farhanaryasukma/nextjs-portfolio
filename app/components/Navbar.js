@@ -69,7 +69,9 @@ export function Example() {
  
   return (
     <>
-      <Navbar className="sticky bg-white border-none top-2 z-10 rounded-3xl py-2 w-11/12 mx-auto lg:px-8 lg:py-4">
+      <Navbar
+        className="sticky bg-white border-none top-2 z-10 rounded-3xl py-2 w-11/12 mx-auto lg:px-8 lg:py-4"
+      >
         <div className="flex items-center justify-between text-blue-gray-900">
           <a href="#top">
             <img
@@ -128,7 +130,7 @@ export function Example() {
             </IconButton>
           </div>
         </div>
-        <MobileNav className={"rounded-b-2xl drop-shadow-lg"}  open={openNav}>
+        <MobileNav className={"rounded-b-2xl drop-shadow-lg"} open={openNav}>
           {navList}
           <Button variant="outlined" size="sm" fullWidth className="mb-2">
             <a href="mailto:farhan.arya.sukma@gmail.com?subject=Custom%20Subject&body=Hello,%20I%20would%20like%20to%20contact%20you%20regarding...">

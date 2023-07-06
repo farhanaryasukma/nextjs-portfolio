@@ -13,7 +13,16 @@ import {
    
   export function CustomCard() {
     return (
-      <Card className="max-w-xs m-auto rounded-lg">
+      <Card
+        data-aos="fade-left"
+        data-aos-offset="25"
+        // data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-once="false"
+        data-aos-anchor-placement="top-center"
+        className="max-w-xs m-auto rounded-lg"
+      >
         <CardHeader floated={false} className="rounded-full">
           <img src="/img/avatar.png" alt="profile-picture" />
         </CardHeader>
