@@ -48,7 +48,7 @@ const Project = () => {
         data-aos-easing="ease-in-out"
         data-aos-once="false"
         data-aos-anchor-placement="top-bottom"
-        className="relative grid h-[30rem] w-full max-w-[20rem] items-end justify-center overflow-hidden text-center hover:text-red-800"
+        className="relative grid h-[30rem] w-full max-w-[20rem] items-end justify-center overflow-hidden text-center md:w-[1000px]"
       >
         <Image
           src={gifPath}
@@ -70,11 +70,11 @@ const Project = () => {
           <Typography
             variant="h2"
             color="white"
-            className="mb-6 font-medium leading-[1.5]"
+            className="p-2 mb-6 font-medium leading-[1.5]"
           >
             {title}
           </Typography>
-          <Typography variant="h5" className="mb-4 text-gray-300 text-sm">
+          <Typography variant="h5" className="ma mb-4 text-gray-300 text-sm">
             {description}
           </Typography>
           <div className="flex justify-center gap-7 pt-2">
@@ -133,7 +133,7 @@ const Project = () => {
           "https://fsw-binar-team2.netlify.app/"
         )}
         {renderCard(
-          "This Portfolio Website",
+          "Portfolio Website",
           "A passion project showcasing my portfolio. Tech stack includes Next.js, React, Tailwind CSS, and Material-Tailwind.",
           "/img/portfolio_website.gif",
           "https://github.com/farhanaryasukma/nextjs-portfolio",
