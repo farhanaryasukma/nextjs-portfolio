@@ -20,7 +20,7 @@ import {
         data-aos-duration="1000"
         data-aos-easing="ease-in-out"
         data-aos-once="false"
-        data-aos-anchor-placement="top-center"
+        data-aos-anchor-placement="top-bottom"
         className="max-w-xs m-auto rounded-lg"
       >
         <CardHeader floated={false} className="rounded-full">
