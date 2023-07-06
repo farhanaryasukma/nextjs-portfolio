@@ -137,7 +137,7 @@ const Project = () => {
           "A passion project showcasing my portfolio. Tech stack includes Next.js, React, Tailwind CSS, and Material-Tailwind.",
           "/img/portfolio_website.gif",
           "https://github.com/farhanaryasukma/nextjs-portfolio",
-          ""
+          " "
         )}
       </div>
     </div>
