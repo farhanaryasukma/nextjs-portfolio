@@ -1,6 +1,5 @@
 "use client";
 import Image from "next/image";
-import { Navbar } from "./components/NavbarAja";
 import { Hero } from "./components/Hero";
 import { Example } from "./components/Navbar";
 import SimpleFooter from "./components/Footer";

@@ -75,8 +75,8 @@ export function Example() {
         <div className="flex items-center justify-between text-blue-gray-900">
           <a href="#top">
             <img
-              className="cursor-pointer"
-              src="/img/signature2.png"
+              className="cursor-pointer font w-20 my-[5px] stroke-current bg-transparent"
+              src="/img/logo.svg"
               alt="nature image"
             />
           </a>
